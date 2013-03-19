@@ -32,7 +32,13 @@ setup(name='gs.group.member.info',
     zip_safe=False,
     install_requires=[
         'setuptools',
-        # -*- Extra requirements: -*-
+        'zope.cachedescriptors',
+        'zope.viewlet',
+        'gs.group.base',
+        'gs.group.home',
+        'gs.group.member.viewlet',
+        'gs.group.privacy',
+        'gs.viewlet',
     ],
     entry_points="""
     # -*- Entry points: -*-
