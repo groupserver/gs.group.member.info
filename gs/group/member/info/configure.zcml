@@ -26,10 +26,11 @@
   <browser:viewlet
     name="gs-group-member-info-admin"
     manager="gs.group.home.interfaces.IGroupHomepageAdmin"
-    class=".viewlet.GroupAdminViewlet"
+    class="gs.group.member.viewlet.GroupAdminViewlet"
     template="browser/template/admin.pt"
     permission="zope2.ManageUsers"
     title="Membership Administration"
+
     weight="10" />
   <browser:viewletManager
     name="groupserver.GroupMemberAdminLinks"
