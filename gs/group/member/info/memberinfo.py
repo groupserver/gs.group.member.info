@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from zope.cachedescriptors.property import Lazy
 from gs.group.privacy.visibility import GroupVisibility
-from viewlet import MemberViewlet
+from gs.group.member.viewlet import MemberViewlet
 
 
 class MemberInfo(MemberViewlet):
