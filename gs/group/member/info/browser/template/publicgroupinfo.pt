@@ -10,7 +10,7 @@
     <div id="gs-group-member-info-public-group-info-anon-sign-in">
       <h4>Already a member?</h4>
       <p>
-        <a class="btn btn-small"
+        <a class="btn btn-small" data-icon="&#x1f512;"
            tal:attributes="href string:/login.html?came_from=${view/groupInfo/relative_url}"
            href="/login.html">Sign in</a> to post.
       </p>
@@ -18,7 +18,7 @@
     <div id="gs-group-member-info-public-group-info-anon-sign-up">
       <h4>Not a member?</h4>
       <p>
-        <a class="btn btn-small"
+        <a class="btn btn-small" data-icon="&#10010;"
            tal:attributes="href string:/register.html?form.groupId=${view/groupInfo/id}"
            href="/register.html">Register</a> to become a member.
       </p>
