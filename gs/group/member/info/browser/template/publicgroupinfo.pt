@@ -29,6 +29,6 @@
        id="gs-group-member-info-public-group-info-signed-in">
     <a class="btn btn-small"
        tal:attributes="href string:${view/groupInfo/relative_url}/join.html"
-       href="join.html">Join</a> and become a member.
+       data-icon="&#10010;" href="join.html">Join</a> and become a member.
   </div><!--gs-group-member-info-public-group-info-signed-in-->
 </div><!--gs-group-member-info-public-group-info-->
