@@ -20,6 +20,14 @@
     permission="zope2.View" 
     title="Membership Information"
     weight="10" />
+  <browser:viewlet
+    name="gs-group-member-info-private-group-info"
+    manager="gs.group.home.interfaces.IGroupHomepageSecondary" 
+    class=".memberinfo.PrivateGroupMemberInfo"
+    template="browser/template/privategroupinfo.pt"
+    permission="zope2.View" 
+    title="Membership Information"
+    weight="10" />
 
   <!-- Administration links -->
   <!-- Q: should this be moved to gs.group.member.admin.info -->
