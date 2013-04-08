@@ -38,7 +38,6 @@
     template="browser/template/admin.pt"
     permission="zope2.ManageUsers"
     title="Membership Administration"
-
     weight="10" />
   <browser:viewletManager
     name="groupserver.GroupMemberAdminLinks"
