@@ -2,7 +2,8 @@
      role="region" aria-labelledby="gs-group-member-info-public-group-info-h">
   <h3 id="gs-group-member-info-public-group-info-h">Membership</h3>
   <p class="minor">
-    This group is public to view, but only members can post.
+    This group is <strong>public</strong> to view, but only members can
+    post.
   </p>
   <div tal:condition="view/loggedInUser/anonymous"
        id="gs-group-member-info-public-group-info-anon"
@@ -19,7 +20,7 @@
       <h4>Not a member?</h4>
       <p>
         <a class="btn btn-small" data-icon="&#10010;"
-           tal:attributes="href string:/register.html?form.groupId=${view/groupInfo/id}"
+           tal:attributes="href string:/request_registration.html?form.groupId=${view/groupInfo/id}"
            href="/register.html">Register</a> to become a member.
       </p>
     </div><!--gs-group-member-info-public-group-info-anon-sign-up-->
