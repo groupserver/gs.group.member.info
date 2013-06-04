@@ -1,4 +1,5 @@
-<div id="gs-group-member-info-logged-in-member-info" role="region" 
+<div id="gs-group-member-info-logged-in-member-info" 
+     class="gs-group-member-info" role="region" 
      aria-labelledby="gs-group-member-info-logged-in-member-info-h">
   <h3 id="gs-group-member-info-logged-in-member-info-h">Membership</h3>
   <p class="minor" tal:condition="view/isMember">

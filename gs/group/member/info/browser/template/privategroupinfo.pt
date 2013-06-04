@@ -1,5 +1,6 @@
 <div id="gs-group-member-info-private-group-info" 
-     role="region" aria-labelledby="gs-group-member-info-private-group-info-h">
+     class="gs-group-member-info" role="region"
+     aria-labelledby="gs-group-member-info-private-group-info-h">
   <h3 id="gs-group-member-info-private-group-info-h">Membership</h3>
   <p class="minor">
     This group is <strong>private:</strong> only members can view and make
