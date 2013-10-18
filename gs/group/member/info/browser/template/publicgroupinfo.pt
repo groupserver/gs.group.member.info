@@ -13,7 +13,7 @@
       <h4>Already a member?</h4>
       <p>
         <a class="btn btn-small" data-icon="&#x1f512;"
-           tal:attributes="href string:/login.html?came_from=${view/groupInfo/relative_url}"
+           tal:attributes="href string:/login.html?came_from=${view/groupInfo/url}"
            href="/login.html">Sign in</a> to post.
       </p>
     </div><!--gs-group-member-info-public-group-info-anon-sign-in-->
