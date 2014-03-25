@@ -27,14 +27,22 @@
     weight="10" />
 
   <!-- Viewlet for people who are not in the group (including -->
-  <!-- Anonymous) -->
+  <!-- Anonymous) so they can join. -->
   <browser:viewlet
     name="gs-group-member-info-public-group-info"
     manager="gs.group.home.interfaces.IGroupHomepageSecondary"
     class=".memberinfo.PublicGroupMemberInfo"
     template="browser/templates/publicgroupinfo.pt"
     permission="zope2.View"
-    title="Membership Information"
+    title="Public group membership information"
+    weight="10" />
+  <browser:viewlet
+    name="gs-group-member-info-restricted-group-info"
+    manager="gs.group.home.interfaces.IGroupHomepageSecondary"
+    class=".memberinfo.RestrictedGroupMemberInfo"
+    template="browser/templates/restrictedgroupinfo.pt"
+    permission="zope2.View"
+    title="Restricted group membership information"
     weight="10" />
   <browser:viewlet
     name="gs-group-member-info-private-group-info"
@@ -42,8 +50,10 @@
     class=".memberinfo.PrivateGroupMemberInfo"
     template="browser/templates/privategroupinfo.pt"
     permission="zope2.View"
-    title="Membership Information"
+    title="Private group membership information"
     weight="10" />
+  <!-- Only members of secret groups can see the group, so there is -->
+  <!-- no viewlet. 2-->
 
   <!-- Administration links -->
   <!-- Q: should this be moved to gs.group.member.admin.info? -->
