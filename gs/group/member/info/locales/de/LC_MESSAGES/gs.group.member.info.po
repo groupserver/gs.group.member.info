@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-10-08 05:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#. Default: "Change your email settings"
+#: ./browser/templates/loggedinmemberinfo.pt:14
+msgid "gs.group.member.info.change-email-settings"
+msgstr "Mail-Einstellungen ändern"
+
+#. Default: "Email settings"
+#: ./browser/templates/loggedinmemberinfo.pt:19
+msgid "gs.group.member.info.email-settings"
+msgstr "Mail-Einstellungen"
+
+#. Default: "Leave group?"
+#: ./browser/templates/loggedinmemberinfo.pt:13
+msgid "gs.group.member.info.leave"
+msgstr "Austreten?"
+
+#. Default: "You are a member."
+#: ./browser/templates/loggedinmemberinfo.pt:9
+msgid "gs.group.member.info.member"
+msgstr "Sie sind Mitglied."
+
+#. Default: "Membership"
+#: ./browser/templates/loggedinmemberinfo.pt:6
+msgid "gs.group.member.info.membership"
+msgstr "Mitgliedschaft"
+

@@ -33,6 +33,7 @@ setup(name='gs.group.member.info',
     install_requires=[
         'setuptools',
         'zope.cachedescriptors',
+        'zope.i18nmessageid',  # For the i18n
         'zope.viewlet',
         'gs.group.base',
         'gs.group.home',

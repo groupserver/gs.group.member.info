@@ -1,17 +1,23 @@
 <div id="gs-group-member-info-logged-in-member-info"
      class="gs-group-member-info" role="region"
-     aria-labelledby="gs-group-member-info-logged-in-member-info-h">
-  <h3 id="gs-group-member-info-logged-in-member-info-h">Membership</h3>
+     aria-labelledby="gs-group-member-info-logged-in-member-info-h"
+     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+     i18n:domain="gs.group.member.info">
+  <h3 id="gs-group-member-info-logged-in-member-info-h"
+      i18n:translate="gs.group.member.info.membership">Membership</h3>
   <p class="minor" tal:condition="view/isMember">
-    You are a member.
+    <span i18n:translate="gs.group.member.info.member"
+          tal:omit-tag="">You are a member.</span>
     <span role="navigation">
       <a
          tal:attributes="href string:/groups/leave.html?groupId=${view/groupInfo/id}"
-         href="../leave.html?"><strong>Leave group?</strong></a>
-      <a title="Change your email settings" class="icon-alone"
+         href="../leave.html?"><strong i18n:translate="gs.group.member.info.leave">Leave group?</strong></a>
+      <a class="icon-alone" title="Change your email settings"
+         i18n:attributes="title gs.group.member.info.change-email-settings"
          tal:attributes="href string:${view/groupInfo/relative_url}/email_settings.html"
          href="email_settings.html"><strong aria-hidden="true"
                                             data-icon="&#x2699;"></strong>
-         <span class="screen-reader-text">Email settings</span></a></span>
+         <span class="screen-reader-text"
+            i18n:translate="gs.group.member.info.email-settings">Email settings</span></a></span>
   </p>
 </div><!--gs-group-member-info-logged-in-member-info-->
