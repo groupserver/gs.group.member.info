@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-08 05:29+0000\n"
+"POT-Creation-Date: 2015-02-28 01:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,28 +14,62 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
+#. Default: "Already a member?"
+#: ./browser/templates/privategroupinfo.pt:18
+#: ./browser/templates/publicgroupinfo.pt:18
+msgid "already-a-member"
+msgstr ""
+
+#. Default: "Group members"
+#: ./browser/templates/admin.pt:7
+msgid "group-members-admin"
+msgstr ""
+
 #. Default: "Change your email settings"
-#: ./browser/templates/loggedinmemberinfo.pt:14
+#: ./browser/templates/loggedinmemberinfo.pt:16
 msgid "gs.group.member.info.change-email-settings"
 msgstr ""
 
 #. Default: "Email settings"
-#: ./browser/templates/loggedinmemberinfo.pt:19
+#: ./browser/templates/loggedinmemberinfo.pt:21
 msgid "gs.group.member.info.email-settings"
 msgstr ""
 
 #. Default: "Leave group?"
-#: ./browser/templates/loggedinmemberinfo.pt:13
+#: ./browser/templates/loggedinmemberinfo.pt:15
 msgid "gs.group.member.info.leave"
 msgstr ""
 
 #. Default: "You are a member."
-#: ./browser/templates/loggedinmemberinfo.pt:9
+#: ./browser/templates/loggedinmemberinfo.pt:10
 msgid "gs.group.member.info.member"
 msgstr ""
 
 #. Default: "Membership"
-#: ./browser/templates/loggedinmemberinfo.pt:6
-msgid "gs.group.member.info.membership"
+#: ./browser/templates/loggedinmemberinfo.pt:7
+#: ./browser/templates/privategroupinfo.pt:7
+#: ./browser/templates/publicgroupinfo.pt:7
+msgid "membership"
+msgstr ""
+
+#. Default: "Not a member?"
+#: ./browser/templates/privategroupinfo.pt:26
+#: ./browser/templates/publicgroupinfo.pt:26
+msgid "not-a-member"
+msgstr ""
+
+#. Default: "This group is <strong>private:</strong> only members can view and make posts."
+#: ./browser/templates/privategroupinfo.pt:9
+msgid "private-membership-description"
+msgstr ""
+
+#. Default: "This group is <strong>public</strong> to view, but only members can post."
+#: ./browser/templates/publicgroupinfo.pt:9
+msgid "public-membership-description"
+msgstr ""
+
+#. Default: "This group is <strong>restricted:</strong> any member of ${siteName} may view this group, but only members can post."
+#: ./browser/templates/restrictedgroupinfo.pt:12
+msgid "restricted-membership-description"
 msgstr ""
 

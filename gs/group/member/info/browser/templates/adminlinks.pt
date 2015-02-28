@@ -1,4 +1,5 @@
-<ul id="gs-group-member-info-admin-content">
+<ul id="gs-group-member-info-admin-content"
+    xmlns:tal="http://xml.zope.org/namespaces/tal">
   <tal:block repeat="viewlet options/viewlets">
     <tal:block content="structure viewlet/render">
       Some links

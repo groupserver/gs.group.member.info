@@ -1,10 +1,16 @@
-<div id="gs-group-member-info-restricted-group-info"
+<div xmlns:tal="http://xml.zope.org/namespaces/tal"
+     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+     i18n:domain="gs.group.member.info"
+     id="gs-group-member-info-restricted-group-info"
      class="gs-group-member-info" role="region"
      aria-labelledby="gs-group-member-info-restricted-group-info-h">
-  <h3 id="gs-group-member-info-restricted-group-info-h">Membership</h3>
-  <p class="minor">
+  <h3 id="gs-group-member-info-restricted-group-info-h"
+      i18n:translate="membership">Membership</h3>
+  <p class="minor"
+     i18n:translate="restricted-membership-description">
     This group is <strong>restricted:</strong> any member of
-    <span class="site" tal:content="view/siteInfo/name">this site</span>
+    <span class="site" i18n:name="siteName"
+          tal:content="view/siteInfo/name">this site</span>
     may view this group, but only members can post.
   </p>
   <div id="gs-group-member-info-restricted-group-info-signed-in"

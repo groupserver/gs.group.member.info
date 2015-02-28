@@ -1,16 +1,21 @@
 <div id="gs-group-member-info-private-group-info"
+     xmlns:tal="http://xml.zope.org/namespaces/tal"
+     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+     i18n:domain="gs.group.member.info"
      class="gs-group-member-info" role="region"
      aria-labelledby="gs-group-member-info-private-group-info-h">
-  <h3 id="gs-group-member-info-private-group-info-h">Membership</h3>
-  <p class="minor">
-    This group is <strong>private:</strong> only members can view and make
-    posts.
+  <h3 id="gs-group-member-info-private-group-info-h"
+      i18n:translate="membership">Membership</h3>
+  <p class="minor"
+     i18n:translate="private-membership-description">
+    This group is <strong>private:</strong> only members can view
+    and make posts.
   </p>
   <div id="gs-group-member-info-private-group-info-actions"
        class="well well-small">
     <div id="gs-group-member-info-private-group-info-anon-sign-in"
          tal:condition="view/loggedInUser/anonymous">
-      <h4>Already a member?</h4>
+      <h4 i18n:translate="already-a-member">Already a member?</h4>
       <p>
         <a class="btn btn-small" data-icon="&#x1f512;"
            tal:attributes="href string:/login.html?came_from=${view/groupInfo/url}"
@@ -18,7 +23,7 @@
       </p>
     </div><!--gs-group-member-info-private-group-info-anon-sign-in-->
     <div id="gs-group-member-info-private-group-info-anon-sign-up">
-      <h4>Not a member?</h4>
+      <h4 i18n:translate="not-a-member">Not a member?</h4>
       <p>
         <a class="btn btn-small" data-icon="&#10010;"
            tal:define="request string:${view/groupInfo/url}/request.html;

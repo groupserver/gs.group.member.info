@@ -1,7 +1,11 @@
 <div id="gs-group-member-info-admin"
+     xmlns:tal="http://xml.zope.org/namespaces/tal"
+     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+     i18n:domain="gs.group.member.info"
      role="navigation"
      aria-labelledby="gs-group-member-info-admin-h">
-  <h4 id="gs-group-member-info-admin-h">Group Members</h4>
+  <h4 id="gs-group-member-info-admin-h"
+      i18n:translate="group-members-admin">Group members</h4>
   <p tal:replace="structure provider:groupserver.GroupMemberAdminLinks">
     The links
   </p>
