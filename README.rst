@@ -87,8 +87,12 @@ with member management.
 Resources
 =========
 
-- Code repository: https://github.com/groupserver/gs.group.member.info
-- Questions and comments to http://groupserver.org/groups/development
+- Code repository:
+  https://github.com/groupserver/gs.group.member.info
+- Translations:
+  https://www.transifex.com/projects/p/gs-group-member-info/
+- Questions and comments to
+  http://groupserver.org/groups/development
 - Report bugs at https://redmine.iopen.net/projects/groupserver
 
 .. _GroupServer: http://groupserver.org/
