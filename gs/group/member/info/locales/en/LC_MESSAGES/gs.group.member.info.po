@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-02-28 01:14+0000\n"
+"POT-Creation-Date: 2015-03-03 01:53+0000\n"
 "PO-Revision-Date: 2015-02-27 17:16-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgid "gs.group.member.info.change-email-settings"
 msgstr "Change your email settings"
 
 #. Default: "Email settings"
-#: ./browser/templates/loggedinmemberinfo.pt:21
+#: ./browser/templates/loggedinmemberinfo.pt:23
 msgid "gs.group.member.info.email-settings"
 msgstr "Email settings"
 
