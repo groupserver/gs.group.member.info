@@ -1,81 +1,82 @@
-#
+# 
 # Translators:
+# Michael JasonSmith <mpj17@onlinegroups.net>, 2015
+# Razique Mahroua <razique.mahroua@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: gs.group.member.info\n"
 "POT-Creation-Date: 2015-03-03 01:53+0000\n"
-"PO-Revision-Date: 2015-02-28 01:21+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-03-11 19:52+0000\n"
+"Last-Translator: Michael JasonSmith <mpj17@onlinegroups.net>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/gs-group-member-info/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
-"Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 "Language: fr\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Preferred-Encodings: utf-8 latin1\n"
 
 #. Default: "Already a member?"
 #: ./browser/templates/privategroupinfo.pt:18
 #: ./browser/templates/publicgroupinfo.pt:18
 msgid "already-a-member"
-msgstr ""
+msgstr "Déjà membre ?"
 
 #. Default: "Group members"
 #: ./browser/templates/admin.pt:7
 msgid "group-members-admin"
-msgstr ""
+msgstr "Membres du groupe"
 
 #. Default: "Change your email settings"
 #: ./browser/templates/loggedinmemberinfo.pt:16
 msgid "gs.group.member.info.change-email-settings"
-msgstr ""
+msgstr "Mettre à jours vos préférences e-mail"
 
 #. Default: "Email settings"
 #: ./browser/templates/loggedinmemberinfo.pt:23
 msgid "gs.group.member.info.email-settings"
-msgstr ""
+msgstr "Paramètres e-mails"
 
 #. Default: "Leave group?"
 #: ./browser/templates/loggedinmemberinfo.pt:15
 msgid "gs.group.member.info.leave"
-msgstr ""
+msgstr "gs.group.member.info.leave"
 
 #. Default: "You are a member."
 #: ./browser/templates/loggedinmemberinfo.pt:10
 msgid "gs.group.member.info.member"
-msgstr ""
+msgstr "Vous êtes membre."
 
 #. Default: "Membership"
 #: ./browser/templates/loggedinmemberinfo.pt:7
 #: ./browser/templates/privategroupinfo.pt:7
 #: ./browser/templates/publicgroupinfo.pt:7
 msgid "membership"
-msgstr ""
+msgstr "Adhésion"
 
 #. Default: "Not a member?"
 #: ./browser/templates/privategroupinfo.pt:26
 #: ./browser/templates/publicgroupinfo.pt:26
 msgid "not-a-member"
-msgstr ""
+msgstr "Vous n'êtes pas membre ?"
 
+#. Default: "This group is <strong>private:</strong> only members can view and
 #. make posts."
-#. Default: "This group is <strong>private:</strong> only members can view and make posts."
 #: ./browser/templates/privategroupinfo.pt:9
 msgid "private-membership-description"
-msgstr ""
+msgstr "Ce groupe est <strong>privé:</strong> seuls ses membres peuvent afficher les sujets et en créer de nouveaux."
 
+#. Default: "This group is <strong>public</strong> to view, but only members
 #. can post."
-#. Default: "This group is <strong>public</strong> to view, but only members can post."
 #: ./browser/templates/publicgroupinfo.pt:9
 msgid "public-membership-description"
-msgstr ""
+msgstr "Ce groupe est <strong>public,</strong> mais seuls ses membres peuvent poster."
 
+#. Default: "This group is <strong>restricted:</strong> any member of
 #. ${siteName} may view this group, but only members can post."
-#. Default: "This group is <strong>restricted:</strong> any member of ${siteName} may view this group, but only members can post."
 #: ./browser/templates/restrictedgroupinfo.pt:12
 msgid "restricted-membership-description"
-msgstr ""
-
+msgstr "Ce groupe est <strong>restreint.</strong> Tous les membre du site ${siteName} peuvent voir le groupe, mais seuls ses membres peuvent poster."
