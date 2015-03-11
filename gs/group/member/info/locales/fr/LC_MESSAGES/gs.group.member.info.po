@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gs.group.member.info\n"
 "POT-Creation-Date: 2015-03-03 01:53+0000\n"
-"PO-Revision-Date: 2015-03-11 19:52+0000\n"
+"PO-Revision-Date: 2015-03-11 22:53+0000\n"
 "Last-Translator: Michael JasonSmith <mpj17@onlinegroups.net>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/gs-group-member-info/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "Paramètres e-mails"
 #. Default: "Leave group?"
 #: ./browser/templates/loggedinmemberinfo.pt:15
 msgid "gs.group.member.info.leave"
-msgstr "gs.group.member.info.leave"
+msgstr "Abandonnez le groupe?"
 
 #. Default: "You are a member."
 #: ./browser/templates/loggedinmemberinfo.pt:10
