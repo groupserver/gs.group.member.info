@@ -39,6 +39,7 @@ setup(
         "Intended Audience :: Developers",
         'License :: OSI Approved :: Zope Public License',
         "Natural Language :: English",
+        "Natural Language :: French",
         "Operating System :: POSIX :: Linux",
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
@@ -57,6 +58,7 @@ setup(
     install_requires=[
         'setuptools',
         'zope.cachedescriptors',
+        'zope.i18n[compile]',
         'zope.i18nmessageid',  # For the i18n
         'zope.viewlet',
         'gs.group.base',
